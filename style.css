@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container_input {
+    background-color: #2F4F4F;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_user {
+    flex: 1;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+#btn_search {
+    padding: 8px;
+    font-size: 1.1rem;  
+    border-radius: 5px;
+    cursor: pointer; 
+    border: none;
+    background-color: #000000;
+    color: white;
+}
+
+.container_user {
+    background-color: #2F4F4F;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+    height: 430px;
+}
+
+.header_user {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#image_user {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.user_descriptions {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#location_user {
+    margin-top: 10px;
+}
+
+#map_icon {
+    font-size: 1.5rem;
+}
+
+#user_followers h3,
+#user_followers p {
+    display: inline-block;
+    margin: 0; 
+    padding-left: 15px;
+}
+
+.user_portfolio {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+#user_bio h3,
+#user_bio p {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+}
+
+#profile_url {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .container_input {
+      margin: 10px;
+    }
+  }
+  
+/* Estilos para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container_input {
+        margin: 20px;
+    }
+    }
+
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    .container_input {
+        margin: 30px auto;
+        max-width: 800px;
+    }
+}
+  
+
+
+

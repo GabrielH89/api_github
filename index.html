@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6cc54d24c7.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container_input">
+       <form>
+            <input id="input_user" placeholder="Insira o nome do usuário">
+            <button id="btn_search"><i class="fa fa-search"></i></button>
+       </form>
+    </div>
+
+    <div class="container_user">
+        <div class="header_user">
+            <img id="image_user">
+            <h3 id="name_user">Gabriel Henrique</h3>
+        </div>
+
+        <div class="user_descriptions">
+            <div id="location_user">
+                <i class="fas fa-map-marker-alt" id="map_icon"></i>
+                <p id="location_name">Recife</p>
+            </div>
+
+            <div id="user_followers">
+                <h3>Seguidores:</h3>
+                <p id="followers">0</p>
+                <h3>Seguindo:</h3>
+                <p id="following">0</p>
+            </div>
+        </div>
+
+        <div class="user_portfolio">
+            <div id="user_bio">
+                <h3>Bio:</h3>
+                <p id="user_bio">This is the bio</p>
+            </div>
+
+            <div id="user_url">
+                <a id="profile_url" href="" target="_blank">Profile</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
